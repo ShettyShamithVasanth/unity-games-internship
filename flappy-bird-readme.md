@@ -18,6 +18,7 @@ Created a Pipespawner obj that spawns pipes at regular time interval, In the scr
 ---
 5.Score System  :
  In this when the bird passes through pipes the scre increase by 5,  score is updated  using TextMeshPro .Here score increses smootly and displays correctly on screen. I even added   highestscore where  the score will be check with pervious score and which has highest value that will be considered as hightest score and later player have to target the highest score and beat that.
+ ---
 6. Game Manager:
 Here in this I created a gamemanager to control the main game flow, it shows play button then start the game when the play button is on.Stop the game on game over (bird dies),even show the game over text and restart button, hides  bird and pipes before game begins. This script controls when objects appear and disappear.
 
