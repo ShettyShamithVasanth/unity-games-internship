@@ -1,4 +1,5 @@
 FLAPPY BIRD UNDERSTANDING REPORT
+---
 1. Project setup in Unity:
 First I created a 2D project model in Unity, I set the camera to 2D mode and adjusted the screen size to mobile resolution. Then I added basic game objects like background, bird, pipes. All sprites are imported with correct setting so that they look clear.
 2. Bird setup and movement (BirdController script):
@@ -8,6 +9,7 @@ The bird is the player obj added Rigidbody 2D to the bird do that the gavity can
 •	Sound plays when the bird flaps.
 •	The bird dies when it hits a pipe or the ground.
 Logics : Rigidbody2D.AddForce() to make the bird jump , OnCollisionEnter2D() to detect bird ,Bird movement is diables before the game starts using rb.simulated=false;( sure the bird stays still on the start screen and moves only after pressing Play)
+---
 
 3. Pipe system  and movement :
 Pipes are obstacles in game, created a pipe prefab with top and bottom pipes and gap in btw ,then added PipeMovement script to move pipes from right to left, Pipes moves using transform. Translate().Random gap positions are generated so the game feels different each time. This created continuous moving obstacles for the bird.
