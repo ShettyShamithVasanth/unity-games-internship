@@ -15,7 +15,7 @@ Logics : Rigidbody2D.AddForce() to make the bird jump , OnCollisionEnter2D() to 
 Pipes are obstacles in game, created a pipe prefab with top and bottom pipes and gap in btw ,then added PipeMovement script to move pipes from right to left, Pipes moves using transform. Translate().Random gap positions are generated so the game feels different each time. This created continuous moving obstacles for the bird.
 4. PipeSpawner System :
 Created a Pipespawner obj that spawns pipes at regular time interval, In the script – Pipes are spawned only when the game is active ,pipes are hidden at the start  screen and after game gets over. It means pipes apper only during game play.
-
+---
 5.Score System  :
  In this when the bird passes through pipes the scre increase by 5,  score is updated  using TextMeshPro .Here score increses smootly and displays correctly on screen. I even added   highestscore where  the score will be check with pervious score and which has highest value that will be considered as hightest score and later player have to target the highest score and beat that.
 6. Game Manager:
