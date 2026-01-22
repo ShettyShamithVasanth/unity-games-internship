@@ -1,5 +1,7 @@
 FLAPPY BIRD UNDERSTANDING REPORT
----
+---';
+jkghjhjjhjhhh
+bjj
 1. Project setup in Unity:
 First I created a 2D project model in Unity, I set the camera to 2D mode and adjusted the screen size to mobile resolution. Then I added basic game objects like background, bird, pipes. All sprites are imported with correct setting so that they look clear.
 2. Bird setup and movement (BirdController script):
